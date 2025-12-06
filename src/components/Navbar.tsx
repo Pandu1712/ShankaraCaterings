@@ -23,19 +23,17 @@ const Navbar = ({ onNavigate, currentPage }: NavbarProps) => {
   };
 
   return (
-   <nav className="bg-[#FFB343] shadow-lg sticky top-0 z-50 border-b-2 border-[#FFB343]">
+ <nav className="bg-[#FFB343] shadow-lg fixed top-0 left-0 w-full z-50 border-b-2 border-[#FFB343]">
 
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="flex justify-between items-center h-20">
       
       <div className="flex items-center space-x-3 cursor-pointer" onClick={() => handleNavigate('home')}>
-        
-        {/* Logo Circle with Your Brown Colors */}
-        <div className=" rounded-full shadow-md">
+        <div className="shadow-md">
           <img
-            src="/ShankaraCaterings.jpg"
+            src="/Shankaralogo.jpg"
             alt="Logo"
-            className="h-12 w-12 object-contain rounded-full"
+            className="h-14 w-14 object-contain rounded-full"
           />
         </div>
 
@@ -43,9 +41,7 @@ const Navbar = ({ onNavigate, currentPage }: NavbarProps) => {
           <h1 className="text-2xl font-bold text-white">
             Shankara Caterings
           </h1>
-          
         </div>
-
       </div>
 
       <div className="hidden md:flex items-center space-x-1">
@@ -55,7 +51,7 @@ const Navbar = ({ onNavigate, currentPage }: NavbarProps) => {
             onClick={() => handleNavigate(item.id)}
             className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 ${
               currentPage === item.id
-                ? 'text-black shadow-md'
+                ? 'text-black shadow-md bg-white'
                 : 'text-white hover:bg-[#F3E6CC] hover:text-[#6A431E]'
             }`}
           >
@@ -94,6 +90,7 @@ const Navbar = ({ onNavigate, currentPage }: NavbarProps) => {
     </div>
   )}
 </nav>
+
 
   );
 };
