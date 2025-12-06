@@ -11,10 +11,10 @@ const Navbar = ({ onNavigate, currentPage }: NavbarProps) => {
 
   const menuItems = [
     { name: 'Home', id: 'home' },
-    { name: 'About Us', id: 'about' },
+    { name: 'About', id: 'about' },
     { name: 'Menu', id: 'services' },
     { name: 'Gallery', id: 'gallery' },
-    { name: 'Contact Us', id: 'contact' },
+    { name: 'Contact', id: 'contact' },
   ];
 
   const handleNavigate = (page: string) => {

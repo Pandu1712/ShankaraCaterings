@@ -6,7 +6,7 @@ const HeroSection = () => {
 
   const slides = [
     {
-      title: 'Welcome To Shankara Parcel and Catering',
+      title: 'Welcome To Shankara Catering',
       description: 'Authentic South Indian Culinary Excellence',
       image: 'https://res.cloudinary.com/dd4oiwnep/image/upload/v1765031546/WhatsApp_Image_2025-12-06_at_09.38.04_e5791a56_nbt2yn.jpg',
     },
