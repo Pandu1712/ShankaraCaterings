@@ -14,7 +14,7 @@ const Gallery = () => {
   ];
 
   return (
-    <section className="py-20 bg-[#FAF4E6]">
+    <section className="py-24 bg-[#FAF4E6]">
       {/* Section Header */}
       <div className="text-center mb-14">
         <h2 className="text-4xl md:text-5xl font-bold text-black">
