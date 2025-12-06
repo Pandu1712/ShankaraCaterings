@@ -217,22 +217,53 @@ const ContactPage = () => {
 
         {/* ⭐ GOOGLE MAP SECTION */}
         <div className="mt-16">
-          <h2 className="text-3xl font-bold text-[black] mb-6 text-center">
-            Our Location
-          </h2>
+  <h2 className="text-3xl font-bold text-black mb-10 text-center">
+    Our Locations
+  </h2>
 
-          <div className="w-full h-[400px] rounded-2xl overflow-hidden shadow-xl border-4 border-[black]">
-            <iframe
-              title="Google Map"
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3805.4266217475174!2d78.39373597516722!3d17.4871366834172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI5JzEzLjciTiA3OMKwMjMnNDYuNyJF!5e0!3m2!1sen!2sin!4v1763897515394!5m2!1sen!2sin"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-            ></iframe>
-          </div>
-        </div>
+  <div className="flex flex-col md:flex-row gap-8 justify-center">
+    
+    {/* Kitchen Location */}
+    <div className="flex-1">
+      <h3 className="text-xl font-semibold text-center mb-3 text-black">
+        Kitchen Location
+      </h3>
+
+      <div className="w-full h-[350px] rounded-2xl overflow-hidden shadow-xl border-4 border-black">
+        <iframe
+          title="Kitchen Location"
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3804.802518110807!2d78.371053!3d17.516938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDMxJzAxLjAiTiA3OMKwMjInMTUuOCJF!5e0!3m2!1sen!2sin!4v1765038410174!5m2!1sen!2sin"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          loading="lazy"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+
+    {/* Office Location */}
+    <div className="flex-1">
+      <h3 className="text-xl font-semibold text-center mb-3 text-black">
+        Office Location
+      </h3>
+
+      <div className="w-full h-[350px] rounded-2xl overflow-hidden shadow-xl border-4 border-black">
+        <iframe
+          title="Office Location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.802478287905!2d78.37092129999999!3d17.5169399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8d34ca1648e1%3A0x53a8f2d57f3544fc!2sSHANKARA%20CATERERS!5e0!3m2!1sen!2sin!4v1765038359980!5m2!1sen!2sin"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          loading="lazy"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
       </div>
     </div>

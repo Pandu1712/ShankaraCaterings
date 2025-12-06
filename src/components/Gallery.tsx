@@ -17,7 +17,7 @@ const Gallery = () => {
     <section className="py-20 bg-[#FAF4E6]">
       {/* Section Header */}
       <div className="text-center mb-14">
-        <h2 className="text-4xl md:text-5xl font-bold text-[#875724]">
+        <h2 className="text-4xl md:text-5xl font-bold text-black">
           Our Gallery
         </h2>
         <p className="text-lg text-[#875724] max-w-2xl mx-auto mt-3">

@@ -368,12 +368,12 @@ const ServicesSection = ({ onBooking }: ServicesSectionProps) => {
   // MAIN RETURN UI
   // ------------------------------------------------------------
   return (
-    <section id="services" className="py-20 bg-[#EADABC] text-[#3b2c1a]">
+    <section id="services" className="py-24 bg-white text-black">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* HEADER */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-[#875724] mb-4">
+          <h2 className="text-5xl font-bold text-black mb-4">
             MEENAKSHI Outdoor Catering
           </h2>
           <p className="text-xl italic text-[#5a452a]">
