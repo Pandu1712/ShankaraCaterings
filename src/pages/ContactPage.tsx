@@ -251,7 +251,7 @@ const ContactPage = () => {
       <div className="w-full h-[350px] rounded-2xl overflow-hidden shadow-xl border-4 border-black">
         <iframe
           title="Office Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.802478287905!2d78.37092129999999!3d17.5169399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8d34ca1648e1%3A0x53a8f2d57f3544fc!2sSHANKARA%20CATERERS!5e0!3m2!1sen!2sin!4v1765038359980!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3805.5130839072817!2d78.3427416751671!3d17.48300418342056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI4JzU4LjgiTiA3OMKwMjAnNDMuMSJF!5e0!3m2!1sen!2sin!4v1765079832655!5m2!1sen!2sin"
           width="100%"
           height="100%"
           style={{ border: 0 }}
