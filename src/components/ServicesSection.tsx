@@ -374,13 +374,13 @@ const ServicesSection = ({ onBooking }: ServicesSectionProps) => {
         {/* HEADER */}
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-black mb-4">
-            MEENAKSHI Outdoor Catering
+            Shankara Outdoor Catering
           </h2>
           <p className="text-xl italic text-[#5a452a]">
             “Flavors that tell a story, service that makes it unforgettable.”
           </p>
           <p className="max-w-3xl mx-auto mt-6 text-lg leading-relaxed">
-            At MEENAKSHI Outdoors, we take our personal love for food to
+            At Shankara Outdoors, we take our personal love for food to
             the next level with innovative gastronomic techniques. Every event is an
             opportunity to exceed expectations and deliver unforgettable
             experiences.
@@ -507,7 +507,7 @@ const ServicesSection = ({ onBooking }: ServicesSectionProps) => {
 
         {/* MENU */}
         <h2 className="mt-12 text-4xl font-bold text-center text-[#875724] mb-10">
-          Full MEENAKSHI Marriage & Events Menu
+          Full Shankara Marriage & Events Menu
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
