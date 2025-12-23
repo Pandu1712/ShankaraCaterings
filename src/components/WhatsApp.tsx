@@ -1,11 +1,18 @@
 "use client";
 
 const WhatsAppWidget = () => {
-  const phone = "919885667575"; // your WhatsApp number
+  const phone = "919885667575";
 
   const openWhatsApp = () => {
-    const url = `https://wa.me/${phone}`;
-    window.location.href = url; // 100% reliable on all devices
+    // 🔴 Google Ads Conversion Tracking
+    if (typeof window !== "undefined" && (window as any).gtag) {
+      (window as any).gtag("event", "conversion", {
+        send_to: "AW-17796187093/REPLACE_WITH_LABEL",
+      });
+    }
+
+    // ✅ Redirect after firing event
+    window.location.href = `https://wa.me/${phone}`;
   };
 
   return (
@@ -14,6 +21,7 @@ const WhatsAppWidget = () => {
       className="fixed bottom-6 right-6 z-50 bg-green-600 hover:bg-green-700
       text-white p-4 rounded-full shadow-xl transition-all duration-300 
       hover:scale-110"
+      aria-label="Chat on WhatsApp"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
